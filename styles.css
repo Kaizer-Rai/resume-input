@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex-section {
+    padding: 5px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-section-col {
+    padding: 5px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    text-wrap: wrap;
+    flex-grow: 1;
+}
+
+ul.skills {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+hr {
+    background-color: black;
+    width: 75%;
+    height: 1px;
+}

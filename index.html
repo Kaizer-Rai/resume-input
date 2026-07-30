@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox Resume</title>
 </head>
 <body>
-    
+        <!-- Contct Info --> 
+        <header class="flex-container">
+            <h2> Peter Kershaw - Web Developer </h2>
+            <p> Contact: 111-222-3333 // San Antonio, TX // peter.kershaw@email.com</p>
+        </header>
+
+        <main class="flex-container">
+            <!-- Education --> 
+            <h3> Education </h3>
+            <hr>
+            <section class="flex-section"> 
+
+                <div class="flex-item"> 
+                    <h4> Schooling </h4>
+                    <p> Texas Tech University - Lubbock, Texas</p>
+                    <p> Bachelor of General Studies</p>
+                    <p> GPA: 2.9</p>
+                    <p> Aug 2016 - Dec 2020</p>
+                </div>
+
+                <div class="flex-item">
+                    <h4>Certifications</h4>
+                    <p> Python For Everyone - Universiry of Michigan</p>
+                    <p> Web Development - Chegg Skills</p>
+                    <p> Web Development - Springboard (In Progress)</p>
+                </div>
+
+            </section>
+
+            <!-- Experience -->
+            <h3> Experience </h3>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Company</th>
+                        <th>City, State</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Customer Service Representative</td>
+                        <td>USAA</td>
+                        <td>San Antonio, Tx</td>
+                        <td>Aug 2025 - Present</td>
+                    </tr>
+                    <tr>
+                        <td>Quality Assurance Technician</td>
+                        <td>Visionworks</td>
+                        <td>Schertz, Tx</td>
+                        <td>Oct 2022 - Aug 2025</td>
+                    </tr>
+                    <tr>
+                        <td>Logistics Coordinator</td>
+                        <td>TQL</td>
+                        <td>San Antonio, Tx</td>
+                        <td>Dec 2020 - Sept 2022</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+
+            <!-- Skills -->
+            <h3> Skills </h3>
+            <hr>
+            <section class="flex-section">  
+                <div class="flex-item">
+                <ul class="skills"> 
+                    <li> HTML </li>
+                    <li> CSS </li>
+                    <li> JavaScript </li>
+                    <li> TailwindCSS </li>
+                    <li> Microsoft Office Suite</li>
+                    <li> Teamwork </li>
+                    <li> Customer Service </li>
+                    <li> Problem Solving </li>
+                    <li> Time Management </li>
+                    <li> Written Communication</li>
+                </ul>
+                </div>
+            </section>
+        </main>
+
 </body>
 </html>
