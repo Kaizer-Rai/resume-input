@@ -95,12 +95,30 @@
         <footer class="flex-container">
             <h3> Contact Me! </h3>
             <hr>
-            <form>
-                <label>Enter Contact Info:</label>
-                <input name="name" type="text" placeholder="Name (required)" required>
-                <input name="email" type="text" placeholder="Email (required)" required>
-                <input name="company" type="text" placeholder="Company">
+            <form class="flex-item">
+                <div class="flex-section-left">
+                    <label>Enter Contact Info:</label>
+                    <input name="name" type="text" placeholder="Name (required)" required>
+                    <input name="email" type="text" placeholder="Email (required)" required>
+                    <input name="company" type="text" placeholder="Company">
+                </div>
+                <div class="flex-section-left">
+                    <label>Select a date to talk or meet!:</label>
+                <input name="date" type="date">
+                <br>
+                <label>Select reason for contact: </label>
+                <select>
+                    <option value="interview">Interview</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="project">Project Idea</option>
+                    <option value="question">Question</option>
+                </select>
+                <br>
+                <label>Send a message:</label>
+                <textarea name="" id="" cols="50", rows="10"></textarea>
+                <br>
                 <button type="submit">Submit</button>
+                </div>
             </form>
         </footer>
 

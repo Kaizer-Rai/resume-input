@@ -21,6 +21,14 @@
     justify-content: space-evenly;
 }
 
+.flex-section-left {
+    padding: 5px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
 .flex-item {
     padding: 5px;
     margin: 5px;
